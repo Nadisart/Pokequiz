@@ -1,0 +1,73 @@
+body {
+    background-image: url('img/pokemon-detective-pikachu-3840x2160_898558-mm-90.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    margin: 0; 
+    padding: 0; 
+  }
+
+
+  .container {
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 20px;
+    border-radius: 10px;
+    margin: 100px auto; 
+    max-width: 1000px; 
+    text-align: center; 
+  }
+
+  .logo-container {
+    text-align: center;
+    margin-top: 50px; 
+  }
+
+  .logo-container img {
+    width: 300px;
+  }
+
+  #question {
+    background-color: transparent; 
+    padding: 20px; 
+    border-radius: 10px; 
+    text-align: center; 
+    font-size: 30px;
+    margin-bottom: 20px; 
+    font-family: 'friend';
+  }
+
+  .options button {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px; 
+    padding: 10px;
+    font-size: 18px;
+
+    
+  }
+
+
+  .feedback {
+    text-align: center;
+    font-size: 18px;
+  }
+  h1 {
+    color: #5658e5;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 30px ;
+    background-color: #5658e5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'friend';
+  }
+  
+  button:hover {
+    background-color: #8587d7;
+  }
